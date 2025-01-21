@@ -10,7 +10,15 @@
     display: flex;
 }
 
+body { 
+    background-image: url('/assets/bg.png');
+    
+}
+
 /* nav-style */
+nav{
+     margin: 0 140px 0 140px;
+}
 .nav-style {
     display: flex;
     justify-content: space-between;
@@ -21,7 +29,6 @@
 .nav-img {
     height: 62px;
     width: 62px;
-    margin-left: 100%;
     text-align: center;
 }
 
@@ -42,7 +49,7 @@ nav li a {
 }
 
 .nav-links-c {
-    margin-right: 300px;
+    margin-right: 15rem ;
     margin-top: 32px;
     gap: 20px;
 }
@@ -72,6 +79,47 @@ nav li a {
     align-items: center;
     justify-content: center;
     border: none;
-    margin-right: 140px;
     margin-top: 29px;
+}
+
+.nav-btn:hover{
+    color: black;
+}
+/* Banner */
+.Banner{
+    margin: 50px 140px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-title{
+    font-size: 56px;
+    font-weight: 800;
+}
+.banner-first-text{
+    color: rgb(254, 163, 1);
+}
+.banner-text-2nd{
+    color: rgb(1, 172, 253);
+}
+
+.banner-description{
+    font-size: 20;
+    margin: 24px 0 24px 0;
+}
+
+.banner-btn{
+    padding: 15px 47px 15px 47px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.banner-img{
+width: 405px;
+height: 575px;
+flex: none;
+margin: 0px 50px;
 }
