@@ -436,6 +436,7 @@ nav li a {
 
 
 @media screen and (max-width:557px) {
+
     nav {
         margin: auto;
     }
@@ -461,25 +462,37 @@ nav li a {
     }
 
     /* card */
-    .cards-section{
-        margin: 0;
+    .cards-section {
+        margin: 5px 30px;
     }
-    .card-container{
+
+    .card-container {
         flex-direction: column;
     }
+
     /* story */
-    .Our-story-sectoin{
+
+    .story{
+        background-color: none ;
+        
+    }
+    .Our-story-sectoin {
         display: none;
     }
-    .st2-5{
-position: static;
-width: 100px;
-height: 561px;
-display: flex;
-flex-direction: column;
-gap: 11px;
-margin-right: -250px;
-       align-items: first baseline;
-       justify-content: center;
+
+    .st2-5 {
+        position: static;
+        width: 100px;
+        height: 561px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin-top: 500px;
+
+    }
+
+    .va-btn-main{
+        display: none;
     }
 }
